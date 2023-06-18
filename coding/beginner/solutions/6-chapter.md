@@ -7,7 +7,7 @@ nav_exclude: true
 # Ⅵ. Súbory - Riešenia
 
 
-## 1. **Prepisovanie**
+## 1. Prepisovanie
 
 ```python
 nazov_suboru = input("Názov súboru")

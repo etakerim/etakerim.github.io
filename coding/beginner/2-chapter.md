@@ -21,7 +21,7 @@ Vstúp, priateľ /   Zmizni kade ľahšie
 
 ## 2. Najväčšie číslo
 
-```## Cvičenia:
+```
 1.číslo: ____
 2.číslo: ____
 3.číslo: ____
