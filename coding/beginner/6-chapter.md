@@ -187,4 +187,4 @@ V tejto kapitole budeme pre jednoduchosť pracovať s textovými súbormi:
    ```
 
 ## Vzorové riešenia:
-[Riešenia k 6.kapitole](/Hackerman/tasks-solutions/6-chapter.html)
+[Riešenia k 6.kapitole](/coding/beginner/solutions/6-chapter.html)

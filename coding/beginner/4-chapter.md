@@ -40,4 +40,4 @@ Pri tvorbe simulácií sú náhodné čísla nepostrádateľné. Umožňujú vni
    ```
 
 ## Vzorové riešenia:
-[Riešenia k 4.kapitole](/Hackerman/tasks-solutions/4-chapter.html)
+[Riešenia k 4.kapitole](/coding/beginner/solutions/4-chapter.html)

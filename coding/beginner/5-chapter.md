@@ -120,4 +120,4 @@
    ```
 
 ## Vzorové riešenia:
-[Riešenia k 5.kapitole](/Hackerman/tasks-solutions/5-chapter.html)
+[Riešenia k 5.kapitole](/coding/beginner/solutions/5-chapter.html)

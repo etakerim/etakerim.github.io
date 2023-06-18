@@ -23,7 +23,7 @@ V hre vystupujú Mikulášove **Sane**, **Stromy** hustého lesa, a rozkotúľan
 Keď sane narazia do stromu hra sa končí. Keď sane prejdú cez darček priráta sa do skóre 1 bod.
 
 
-![SantaGame](/Hackerman/assets/santa-game.png)
+![SantaGame](/assets/santa-game.png)
 
 
 

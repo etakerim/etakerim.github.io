@@ -119,4 +119,4 @@ Základné stavebné kamene, z ktorých vyskladáme opis zložitejších javov s
    ```
 
 ## Vzorové riešenia:
-[Riešenia k 1.kapitole](/Hackerman/tasks-solutions/1-chapter.html)
+[Riešenia k 1.kapitole](/coding/beginner/solutions/1-chapter.html)

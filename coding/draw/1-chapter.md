@@ -2,11 +2,11 @@
 
 1. Nakreslite na veľkosť celého grafického okna spolu štyri čiary. Dve na seba kolmé prechádzajúce stredom a dve diagonály spájajúce protiľahlé rohy.
    
-   ![Lines](/Hackerman/assets/drawing-1.png)
+   ![Lines](/assets/drawing-1.png)
 
 2. Vytvorte následujúci tvar – kružnicu opísanú trojuholníku.
    
-   ![Circle](/Hackerman/assets/drawing-2.png)
+   ![Circle](/assets/drawing-2.png)
    
 3. V priestore grafickej plochy vytvorte n vyfarbených kružníc na náhodnej pozícii x, y (v rozmedzí okna) s náhodným polomerom r (10 – 40 pixelov).
 Farba každého kruhu bude závisieť od toho, či sa nachádza na pravej alebo ľavej polovici okna. Napríklad všetky na pravo budú modré, na ľavo zelené. Skúste sa pohrať so šírkou prázdneho predelu v strede.

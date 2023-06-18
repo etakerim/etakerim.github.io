@@ -35,7 +35,6 @@ while True:
     print(f"Od vraku si {vzdialenost(x, y):.3f} námornych míľ")
 ```
 
----
 
 2. **Lietadlo** - Pilotov v kokpite lietadlo by počas letu zaujímalo, ako ďaleko sú ešte od prístatia. Zo zemepisných súradníc aktuálnej polohy a súradníc cieľa vypočíataj vo funkcii `letime(x, y)` najkratšiu vzdialenosť medzi týmito bodmi na sférickom povrchu zemegule.
 
@@ -69,7 +68,6 @@ vzdielenost = letime(start, ciel)
 print(f"\nVzdialenosť: {vzdielenost:.2f} km")
 ```
 
----
 
 3. **Cézarová šifra** - Pri tvojich cestách po lodných pokladoch ťa odpočúvajú piráti, ktorí ťa chcú predbehnúť a obohatiť sa. Na utajenie svojej polohy a správ s pevninou musíš svoje informácie šifrovať. Funkcia `sifruj(sprava, kluc)` zašifruje text správy tak, že posunie každé písmeno abecedy podľa písmena `kluc`, čiže napríklad správa "ABC" sa kľúčom "B" zmení na "BCD". Funkcia `desifruj(sifra, kluc)` bude fungovať spätne.  Pre lepšiu bezpečnosť podporuj aj dlhšie kľúče. Každé písmeno bude vyjadrovať posun od začiatku abecedy písmena, s ktorým sa stretne. Potom správa "AVE CEZAR" s kľúčom "BCD" bude "BXH DGCBT".
 
@@ -132,7 +130,6 @@ elif akcia == "dešifruj":
 print(s)
 ```
 
----
 
 4. **Pascalov trojuholník** - Vytvorte funkciu `pascalov_trojuholnik(n)`, ktorá vypíšte súčtovú pyramídu s *n* riadkami, ktorá má po okrajoch jednotky a nasledujúce riadky sa tvoria ako súčet dvoch čísel v predchádzajúcom riadku.
 
@@ -160,7 +157,6 @@ vyska = int(input("Zadajte výšku Pascalovho trojuholníka: "))
 pascalov_trojuholnik(vyska)
 ```
 
----
 
 5. **Bublikové triedenie** - Pre prehľadnosť údajov je užitočné vedieť ich utriediť podľa rôznych kritérií. Napíš program, ktorý vypíše študentov zo súboru zoradených podľa zadaného názvu stĺpčeka vzostupne.  Na začiatok použi algoritmus bublinkového triedenia, neskôr proces zefektívni využitím algoritmom triedenia zlučovaním alebo rýchlym triedením.
 
@@ -205,7 +201,6 @@ for ziak in ziaci:
     print()
 ```
 
----
 
 6. **Štatistika** - Pre investora je dôležité poznať podmienky trhu a potenciálnu konkurenciu predtým, než si naplánuje stratégiu investovania. Rozbiehaš realitnú kanceláriu a skôr než nastaviš ceny pre konkrétne byty, zisti v akom vzťahu je výmera bytu k jeho cene v lokalite. Pre každú štatistickú funkciu si napíš zodpovedajúcu procedúru. Údaje o bytoch načítaj zo súboru.
 
@@ -295,7 +290,6 @@ print(f"{'Modus':25s}:{modus(ceny):15.2f}:{modus(vymery):15.2f}:")
 print(f"{'Smerodajná odchýlka':25s}:{smerodajna_odchylka(ceny):15.2f}:{smerodajna_odchylka(vymery):15.2f}:")
 ```
 
----
 
 7. **Rímske čísla** - Od archeológov si dostal dlhý zoznam rímskych čísel, ktoré boli nájdené v novobjavených podzemených historických pamiatkach. Tažko sa v nich dá vyznať a je na tebe, aby si ich premenil na "normálne" arabské čísla. Pre zhrnutie ti poslali aj zoznam pravidiel prevodu týchto číselných systémov. Napíš funkciu `rimske_na_arabske(rimske)`, ktorá premení rímske na arabské číslo.
 
@@ -324,7 +318,6 @@ cislo = input("Zadaj rímske číslo: ")
 print(rimske_na_arabske(cislo))
 ```
 
----
 
 8. **Základný tvar zlomku** - Zlomky sú vhodné na presné výpočty s častami z celku. Vytvor jednoduchú kalkulačku, ktorá umožňuje dva zlomky sčítať, odčítať, násobiť a deliť. Výsledok vždy zjednoduš na základný tvar (*Euklidov algoritmus pre NSD a NSN*).
 

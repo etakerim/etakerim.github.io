@@ -26,4 +26,4 @@ projektilmi, aby boli úplné zničení) , veľkosť, sebaobranné schopnosti (t
 body
 - Predstavivosti sa medze nekladú. Navrhnite vlastné modifikácie ...
 
-![SnowmanGame](/Hackerman/assets/drawing-snowman.png)
+![SnowmanGame](/assets/drawing-snowman.png)

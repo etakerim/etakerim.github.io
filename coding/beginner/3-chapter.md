@@ -111,8 +111,24 @@ Obrovský potenciál počítačov tkvie v bezchybnom neúnavnom vykonávaní pre
    ```
 
 
+9. **Málo peňazí** - Chodíš po obchode a háďžeš postupne všemožné veci z regálov do košíka. Po príchode k pokladni však zistíš, že všetky tie dobroty, ktoré tak dobre chutia, stoja dokopy viac ako dokážeš zaplatiť v hotovosti. V tomto momente máš dve možnosti, buď ich pokorne vrátiš predavačovi alebo s nimi utečieš … čo … robím si srandu. Našťastie máš pri sebe platobnú kartu, ale skrsne ti užasný nápad. Nabudúce si prinesieš prenosnú pokladňu a už nikdy ťa cena na bločku neprekvapí.
+- Napíš program, ktorý číta na vstupe nakúpený tovar, dovtedy kým nenapíšeš na klávesnici „ZAPLAŤ“. Kupovaný tovar bude mať svoj názov, cenu s presnosťou na centy (ako číslo s desatinnou čiarkou) a počet kusov. Po vložení tovaru sa zároveň vypíše doterajšia cena za celý nákup. Ak cena presiahne počet peňazí v hotovosti zadaných na začiatku, tak sa vypíšte upozornenie.
 
-9. **Sporenie** -  Na letnej brigáde si zarobil peniaze, ktoré chceš usporiť. Porovnáš ponuky bánk a hľadáš najvýhodnejší plán. Vytvor si sporiacu kalkulačku, ktorá na základe nemenného počiatčného vkladu, ročnej úrokovej sadzby, typu úročenia a žiadanej konečnej sumy, vypíše vývoj tvojich finančných prostriedkov do budúcnosti.
+```
+Hotovosť: 10 €
+...
+Tovar: Chlieb
+Cena (€): 1,51
+Počet kusov: 2
+
+| Chlieb | 1,51€ / kus | 2x | Cena: 3,02€ | Spolu: 10,30 €
+Pozor: Nákup je príliš drahý
+
+Tovar: ZAPLAŤ
+```
+
+
+10. **Sporenie** -  Na letnej brigáde si zarobil peniaze, ktoré chceš usporiť. Porovnáš ponuky bánk a hľadáš najvýhodnejší plán. Vytvor si sporiacu kalkulačku, ktorá na základe nemenného počiatčného vkladu, ročnej úrokovej sadzby, typu úročenia a žiadanej konečnej sumy, vypíše vývoj tvojich finančných prostriedkov do budúcnosti.
 
    ```
    Vklad v €: ____

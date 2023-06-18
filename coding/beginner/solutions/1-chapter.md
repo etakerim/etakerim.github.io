@@ -9,7 +9,7 @@ meno = input("Ako sa voláš?: ")
 print("Ahoj " + meno)
 ```
 
----
+
 
 2. **Básnik** - Vytváraš básničky na počkanie. Dnes sa ti ťažko premýšľa nad kreatívnymi textami, tak si chceš ušetriť námahu tým, že budeš meniť len rým.
 
@@ -21,7 +21,7 @@ print(f"Z počítačov mával som vždy strach\n"
       f"teraz som však šťastný ako {slovo}.")
 ```
 
----
+
 
 3. **Pozvánka** - Každému kamarátovi chceš poslať pozvánku na svoju narodeninovú oslavu. Okrem mena v správe potrebuješ meniť aj čas konania oslavy (nie všetci chodia načas), vec, ktorú priniesie a jedlo, ktoré bude mať prichystané.
 
@@ -42,7 +42,6 @@ sprava = (
 print(sprava)
 ```
 
----
 
 
 4. **Prevod jednotiek teploty** - Si na návšteve v Amerike a keď ideš von nevieš ako sa máš obliecť, lebo na teplomere vidíš len stupne Fahrenheita. Premeň ich na stupne Celzia.
@@ -54,7 +53,6 @@ c = (5 / 9) * (f - 32)
 print(f"Doma by to bolo {c:.2f}°C.")
 ```
 
----
 
 5. **Cesta autom** - Plánuješ trasu na výlet autom a chceš zistiť akou rýchlosťou musíte priemerne ísť, aby ste stihli navštíviť všetky miesta a prišli večer včas do hotela.
 
@@ -72,7 +70,6 @@ hod = prichod - odchod
 print(f"Pôjdete priemerne {km / hod:.2f} km/h.")
 ```
 
----
 
 6. **Kúpalisko** - Začína sa letná sezóna a prevádzka kúpaliska musí pred otvorením plne napustiť bazény v areáli. Všetky sú kvádrového tvaru a poznáme ich rozmery. Zaujíma nás spotrebovaná voda na konkrétny bazén a cena, ktorú za ňu zaplatíme.
 
@@ -95,7 +92,6 @@ V = dlzka * sirka * (hlbka - (okraj / 100))
 print(f"Na bazén sa minie {V * 1000} litrov vody a bude to stáť {cena * V} €.")
 ```
 
----
 
 7. **Maľovanie** - Sťahuješ sa s rodičmi do nového bytu a dali ti za úlohu vymalovať si izbu. Myslíš si, že nástroj na rýchle počítanie množstva farby by sa hodil aj profesionálnym maliarom, preto vytvoríš program na vypočítanie plochy stien a stropu bez okna a podlahy.
 
@@ -133,7 +129,6 @@ kg_farba = S / vydatnost
 print(f"Maľovať budeš plochu {S:.2f} m². Kúp {kg_farba:.2f} kg farby.")
 ```
 
----
 
 8. **Brzdenie** - V poslednej dobe je na trati viacej nebezpečných zrážok. Rušňovodiči ťa požiadali, aby si zistil ako rýchlo pred prekážkou dokáže vlaková súprava zastaviť pri danej rýchlosti.
 

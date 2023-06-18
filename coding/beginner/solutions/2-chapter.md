@@ -14,7 +14,6 @@ else:
     print("Zmizni kade ľahšie")
 ```
 
----
 
 2. **Najväčšie číslo** - Získaj tri čísla a zisti, ktoré z nich je najväčšie.
 
@@ -37,7 +36,6 @@ if z > najviac:
 print(f"Najväčie je {poradie}.číslo a to je {najviac}.")
 ```
 
----
 
 3. **Vhodné oblečenie** - Módny poradcovia vyšli z módy a ich prácu prebrali počítače. Na základe počasia a príležitosti odporúčajú vhodný outfit. Vymysli pár tipov pre rôzne situácie a začni radiť.
 
@@ -45,7 +43,6 @@ print(f"Najväčie je {poradie}.číslo a to je {najviac}.")
 # TODO
 ```
 
----
 
 
 4. **Pokazený rozpis** -  Podnik spracujúci rudu dostal časový rozpis trvania jednotlivých krokov vylepšeného technologického procesu. Činnosti zvyčajne trvajú dlhšie ako hodinu, nehodí sa im teda mať časy napísané iba ako údaj v minútach. Tvojou úlohou je rozpísať minúty na dni, hodiny, minúty pre jednoduchšie čítanie rozpisu. Vynechajte nepotrebné časové údaje.
@@ -87,8 +84,6 @@ else:
     print(f"Neviem čo znamená '{cinnost}'")
 ```
 
----
-
 
 6. **Kvadratická rovnica** - Pre zadané koeficienty `a`, `b`, `c` kvadratickej rovnice `ax² + bx + c = 0`  vypočítajte jej korene v obore reálnych čísel a vrchol paraboly daného predpisu.
 
@@ -121,8 +116,6 @@ else:
         Vy = c - ((b ** 2) / (4 * a))
         print(f"V[{Vx}; {Vy}]")
 ```
-
----
 
 
 7. **Trojuholníky**
