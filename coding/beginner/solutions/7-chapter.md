@@ -1,7 +1,7 @@
 # Ⅶ. Funkcie - Riešenia
 
 
-1. **Vraky** - V šírich vodách Atlantiku sa stále ukrýka nepreberné bohatstvo vo vrakoch potopených lodí. V tejto minhre bude tvojou úlohou odkryť tajomstvo skrývajúce sa pod hladinou, nájdením parníku vytvoreného na náhodnej pozícii. Do programu napíš funkciu `vzdialenost(x, y)`, ktorá na základe zadaných súradníc vypočíta ako ďaleko si od vraku.
+## 1. Vraky
 
 ```python
 import random
@@ -36,7 +36,7 @@ while True:
 ```
 
 
-2. **Lietadlo** - Pilotov v kokpite lietadlo by počas letu zaujímalo, ako ďaleko sú ešte od prístatia. Zo zemepisných súradníc aktuálnej polohy a súradníc cieľa vypočíataj vo funkcii `letime(x, y)` najkratšiu vzdialenosť medzi týmito bodmi na sférickom povrchu zemegule.
+## 2. Lietadlo
 
 ```python
 from math import sin, cos, acos, radians
@@ -69,7 +69,7 @@ print(f"\nVzdialenosť: {vzdielenost:.2f} km")
 ```
 
 
-3. **Cézarová šifra** - Pri tvojich cestách po lodných pokladoch ťa odpočúvajú piráti, ktorí ťa chcú predbehnúť a obohatiť sa. Na utajenie svojej polohy a správ s pevninou musíš svoje informácie šifrovať. Funkcia `sifruj(sprava, kluc)` zašifruje text správy tak, že posunie každé písmeno abecedy podľa písmena `kluc`, čiže napríklad správa "ABC" sa kľúčom "B" zmení na "BCD". Funkcia `desifruj(sifra, kluc)` bude fungovať spätne.  Pre lepšiu bezpečnosť podporuj aj dlhšie kľúče. Každé písmeno bude vyjadrovať posun od začiatku abecedy písmena, s ktorým sa stretne. Potom správa "AVE CEZAR" s kľúčom "BCD" bude "BXH DGCBT".
+## 3. Cézarová šifra
 
 ```python
 def sifruj(sprava, kluc):
@@ -131,7 +131,7 @@ print(s)
 ```
 
 
-4. **Pascalov trojuholník** - Vytvorte funkciu `pascalov_trojuholnik(n)`, ktorá vypíšte súčtovú pyramídu s *n* riadkami, ktorá má po okrajoch jednotky a nasledujúce riadky sa tvoria ako súčet dvoch čísel v predchádzajúcom riadku.
+## 4. Pascalov trojuholník
 
 ```python
 def pascalov_trojuholnik(n):
@@ -158,7 +158,7 @@ pascalov_trojuholnik(vyska)
 ```
 
 
-5. **Bublikové triedenie** - Pre prehľadnosť údajov je užitočné vedieť ich utriediť podľa rôznych kritérií. Napíš program, ktorý vypíše študentov zo súboru zoradených podľa zadaného názvu stĺpčeka vzostupne.  Na začiatok použi algoritmus bublinkového triedenia, neskôr proces zefektívni využitím algoritmom triedenia zlučovaním alebo rýchlym triedením.
+## 5. Bublikové triedenie
 
 ```python
 def bublinkove_triedenie(zoznam, stlpec):
@@ -202,7 +202,7 @@ for ziak in ziaci:
 ```
 
 
-6. **Štatistika** - Pre investora je dôležité poznať podmienky trhu a potenciálnu konkurenciu predtým, než si naplánuje stratégiu investovania. Rozbiehaš realitnú kanceláriu a skôr než nastaviš ceny pre konkrétne byty, zisti v akom vzťahu je výmera bytu k jeho cene v lokalite. Pre každú štatistickú funkciu si napíš zodpovedajúcu procedúru. Údaje o bytoch načítaj zo súboru.
+## 6. Štatistika
 
 ```python
 import math
@@ -291,7 +291,7 @@ print(f"{'Smerodajná odchýlka':25s}:{smerodajna_odchylka(ceny):15.2f}:{smeroda
 ```
 
 
-7. **Rímske čísla** - Od archeológov si dostal dlhý zoznam rímskych čísel, ktoré boli nájdené v novobjavených podzemených historických pamiatkach. Tažko sa v nich dá vyznať a je na tebe, aby si ich premenil na "normálne" arabské čísla. Pre zhrnutie ti poslali aj zoznam pravidiel prevodu týchto číselných systémov. Napíš funkciu `rimske_na_arabske(rimske)`, ktorá premení rímske na arabské číslo.
+## 7. Rímske čísla
 
 ```python
 def rimske_na_arabske(rimske):
@@ -319,7 +319,7 @@ print(rimske_na_arabske(cislo))
 ```
 
 
-8. **Základný tvar zlomku** - Zlomky sú vhodné na presné výpočty s častami z celku. Vytvor jednoduchú kalkulačku, ktorá umožňuje dva zlomky sčítať, odčítať, násobiť a deliť. Výsledok vždy zjednoduš na základný tvar (*Euklidov algoritmus pre NSD a NSN*).
+## 8. Základný tvar zlomku
 
 ```python
 def nsd(a, b):
@@ -408,4 +408,108 @@ elif akcia == '/':
 ```
 
 
+## 9. Spisovateľ
 
+```python
+import random
+
+autor = input("Chcem písať ako: ")
+dlzka_ngram = int(input("Dĺžka n-gramu: "))
+dlzka_generuj = int(input("Počet znakov výsledného textu: "))
+dlzka_generuj //= dlzka_ngram
+
+print("Spracúvam korpus tvorby autora ...")
+korpus = open(autor.lower() + ".txt", "r")
+
+legenda = []        # Každý nový znak si zaznač do hlavičky tabuľky
+pocty = []          # Počet znakov korpusu
+matica = []         # Tabuľka výskytov po sebe idúcich dvoch znakov z legendy
+pred_pozicia = None
+ngram = ""
+
+for riadok in korpus:
+    riadok = riadok.strip()
+
+    for znak in riadok:
+        # Zhromažduj znaky, kým nemáš n-gram požadovanej dĺžky
+        ngram += znak
+        if len(ngram) != dlzka_ngram:
+            continue
+
+        # Poznač si, či sme znak už predtým videli
+        videl = False
+        pozicia = 0
+        for i in range(len(legenda)):
+            if legenda[i] == ngram:
+                pozicia = i
+                videl = True
+                break
+
+        if not videl:
+            # Ak sme znak nevideli pridaj preň matici nakoniec prázdny riadok a stĺpec
+            pred_pozicia = len(legenda)
+            legenda.append(ngram)
+            pocty.append(1)
+
+            for r in matica:
+                r.append(0)
+            nuly = []
+            for i in range(len(legenda)):
+                nuly.append(0)
+            matica.append(nuly)
+
+        else:
+            # Ak sme ho videli pripočítaj prechodový stav
+            if pred_pozicia != None:
+                matica[pred_pozicia][pozicia] += 1
+                pocty[pozicia] += 1
+                pred_pozicia = pozicia
+
+        ngram = ""
+korpus.close()
+
+print("Spočítavam maticu prechodových stavov ...")
+# Normalizuj: premen početnosť na pravdepodobnosť
+for r in range(len(matica)):
+    for s in range(len(matica[r])):
+        matica[r][s] /= pocty[r]
+
+
+print("Generujem originálny text ...")
+text = ""
+
+# Vyber z možných začiatkov začinajúcich veľkým písmenom
+zaciatky = []
+for retazec in legenda:
+    if retazec[0].isupper():
+        zaciatky.append(retazec)
+
+
+vyber = random.randint(0, len(zaciatky) - 1)
+ngram = zaciatky[vyber]
+text += ngram
+
+# Nájdi stav, v ktorom sme na začiatku
+stav = 0
+for i in range(len(legenda)):
+    if legenda[i] == ngram:
+        stav = i
+        break
+
+
+for i in range(dlzka_generuj - 1):
+    # Podľa pravdepodobností v danom riadku matice vyber stĺpec a tým aj nový ngram
+    uroven = 1.0
+    p = random.random()
+    # https://stackoverflow.com/questions/3679694/a-weighted-version-of-random-choice
+    for j in range(len(matica[r])):
+        vaha = matica[stav][j]
+        p -= vaha
+        if p < vaha:
+            ngram = legenda[j]
+            stav = j
+            text += ngram
+            break
+
+print(text)
+```

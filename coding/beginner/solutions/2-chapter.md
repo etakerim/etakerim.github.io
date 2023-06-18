@@ -1,8 +1,13 @@
-### Ⅱ. Podmienky - Riešenia
+---
+layout: default
+title: Podmienky - Riešenia
+nav_exclude: true
+---
+
+# Ⅱ. Podmienky - Riešenia
 
 
-
-1. **Heslo** - Tvoj dom na strome už vykradlo pár nezvaných návštevníkov a preto si vymyslel spôsob ako dovoliť návštevu len povoleným osobám, ktoré poznajú tajné heslo.
+## 1. Heslo
 
 ```python
 print("Stoj! Povedz Heslo!")
@@ -15,7 +20,7 @@ else:
 ```
 
 
-2. **Najväčšie číslo** - Získaj tri čísla a zisti, ktoré z nich je najväčšie.
+## 2. Najväčšie číslo
 
 ```python
 x = int(input("1.číslo: "))
@@ -36,16 +41,7 @@ if z > najviac:
 print(f"Najväčie je {poradie}.číslo a to je {najviac}.")
 ```
 
-
-3. **Vhodné oblečenie** - Módny poradcovia vyšli z módy a ich prácu prebrali počítače. Na základe počasia a príležitosti odporúčajú vhodný outfit. Vymysli pár tipov pre rôzne situácie a začni radiť.
-
-```python
-# TODO
-```
-
-
-
-4. **Pokazený rozpis** -  Podnik spracujúci rudu dostal časový rozpis trvania jednotlivých krokov vylepšeného technologického procesu. Činnosti zvyčajne trvajú dlhšie ako hodinu, nehodí sa im teda mať časy napísané iba ako údaj v minútach. Tvojou úlohou je rozpísať minúty na dni, hodiny, minúty pre jednoduchšie čítanie rozpisu. Vynechajte nepotrebné časové údaje.
+## 4. Pokazený rozpis
 
 ```python
 min = int(input("Trvanie (min.): "))
@@ -65,10 +61,7 @@ if hod > 0:
 print(f"{min} min.")
 ```
 
----
-
-
-5. **Hovoriaca kalkulačka** - Výpočty neboli nikdy väčšia zábava, teda aspoň s kalkulačkou, ktorá namiesto čudných matematických znamienok hovorí ľudskou rečou. Vytvorte kalkulačku, ktorá si vypýta dve čísla a vie ich sčítať alebo odčítať.
+## 5. Hovoriaca kalkulačka
 
 ```python
 print("Som hovorica kalkulačka a rada počítam!")
@@ -85,7 +78,7 @@ else:
 ```
 
 
-6. **Kvadratická rovnica** - Pre zadané koeficienty `a`, `b`, `c` kvadratickej rovnice `ax² + bx + c = 0`  vypočítajte jej korene v obore reálnych čísel a vrchol paraboly daného predpisu.
+## 6. Kvadratická rovnica
 
 ```python
 import math
@@ -118,12 +111,7 @@ else:
 ```
 
 
-7. **Trojuholníky**
-
-   *a)* Mýtická bytosť stredoškolskej matematiky, o ktorej je vždy treba zistiť, čo najviac bez rysovania, aj keď chýbajú rozmery. Ak je možné, doplň chýbajúce informácie pre ľubovoľný trojuholník (zadaný ako SSS) ako sú dĺžky strán a výšok, veľkosti uhlov, obsah a obvod. Využite trojuholníkoú nerovnosť, sínus(ovú) vetu, kosínus(ovú) vetu a vzorec na výpočet obsahu trojuholníkov.
-
-   *b)* Rozšírte vypočet aj pre ostatné vety o trojuholníkoch: SUS, USU, UUS
-
+## 7. Trojuholníky
 
 ```python
 import math

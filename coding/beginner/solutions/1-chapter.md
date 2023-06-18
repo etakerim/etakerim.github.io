@@ -1,19 +1,20 @@
-### I. Premenné - Riešenia
+---
+layout: default
+title: Premenné - Riešenia
+nav_exclude: true
+---
 
 
+# I. Premenné - Riešenia
 
-1. **Pozdrav** - Vytvor program, ktorý ťa po vložení mena pozdraví.  Zameň pozdrav a zároveň nechaj program sa rozlučiť. 
 
+## 1. Pozdrav
 ```python
 meno = input("Ako sa voláš?: ")
 print("Ahoj " + meno)
 ```
 
-
-
-2. **Básnik** - Vytváraš básničky na počkanie. Dnes sa ti ťažko premýšľa nad kreatívnymi textami, tak si chceš ušetriť námahu tým, že budeš meniť len rým.
-
-
+## 2. Básnik
 ```python
 slovo = input("Napíš slovo, ktoré sa rýmuje so slovom strach: ")
 print("Tu je báseň:")
@@ -21,11 +22,7 @@ print(f"Z počítačov mával som vždy strach\n"
       f"teraz som však šťastný ako {slovo}.")
 ```
 
-
-
-3. **Pozvánka** - Každému kamarátovi chceš poslať pozvánku na svoju narodeninovú oslavu. Okrem mena v správe potrebuješ meniť aj čas konania oslavy (nie všetci chodia načas), vec, ktorú priniesie a jedlo, ktoré bude mať prichystané.
-
-
+## 3. Pozvánka
 ```python
 meno = input("Meno kamaráta: ")
 cas = input("Čas oslavy: ")
@@ -42,21 +39,40 @@ sprava = (
 print(sprava)
 ```
 
-
-
-4. **Prevod jednotiek teploty** - Si na návšteve v Amerike a keď ideš von nevieš ako sa máš obliecť, lebo na teplomere vidíš len stupne Fahrenheita. Premeň ich na stupne Celzia.
-
-
+## 4. Prevod jednotiek teploty
 ```python
-f = float(input("Vonku je °F: "))
+f = input("Vonku je °F: ")
+f = float(f)
 c = (5 / 9) * (f - 32)
 print(f"Doma by to bolo {c:.2f}°C.")
 ```
 
 
-5. **Cesta autom** - Plánuješ trasu na výlet autom a chceš zistiť akou rýchlosťou musíte priemerne ísť, aby ste stihli navštíviť všetky miesta a prišli večer včas do hotela.
+## 5. Hlboká roklina
+```python
+g = 9.81
+t = input("Čas dopadu kameňa (s): ")
+t = int(t)
+h = (g * (t ** 2)) / 2
+print("Hĺbka rokliny je potom", h, "metrov")
+```
 
 
+## 6. Vedro s vodou
+```python
+pi = 3.14159
+v = input("Výška vedra (cm): ")
+d = input("Priemer dna (cm): ")
+v = int(v)
+d = int(d)
+
+V = pi * ((d / 2) ** 2)
+V = V / 1000
+print("Do vedra sa zmestí", V, "litrov vody.")
+```
+
+
+## 7. Cesta autom
 ```python
 km = input("Dĺžka cesty (km): ")
 odchod = input("Odchod z domu (hodina): ")
@@ -71,9 +87,7 @@ print(f"Pôjdete priemerne {km / hod:.2f} km/h.")
 ```
 
 
-6. **Kúpalisko** - Začína sa letná sezóna a prevádzka kúpaliska musí pred otvorením plne napustiť bazény v areáli. Všetky sú kvádrového tvaru a poznáme ich rozmery. Zaujíma nás spotrebovaná voda na konkrétny bazén a cena, ktorú za ňu zaplatíme.
-
-
+## 8. Kúpalisko
 ```python
 dlzka = input("Dĺžka bazéna (m): ")
 sirka = input("Šírka bazéna (m): ")
@@ -93,9 +107,7 @@ print(f"Na bazén sa minie {V * 1000} litrov vody a bude to stáť {cena * V} �
 ```
 
 
-7. **Maľovanie** - Sťahuješ sa s rodičmi do nového bytu a dali ti za úlohu vymalovať si izbu. Myslíš si, že nástroj na rýchle počítanie množstva farby by sa hodil aj profesionálnym maliarom, preto vytvoríš program na vypočítanie plochy stien a stropu bez okna a podlahy.
-
-
+## 9. Maľovanie
 ```python
 # Získaj z klávesnice rozmery miestnosti
 print("Rozmery miestnosti")
@@ -130,9 +142,7 @@ print(f"Maľovať budeš plochu {S:.2f} m². Kúp {kg_farba:.2f} kg farby.")
 ```
 
 
-8. **Brzdenie** - V poslednej dobe je na trati viacej nebezpečných zrážok. Rušňovodiči ťa požiadali, aby si zistil ako rýchlo pred prekážkou dokáže vlaková súprava zastaviť pri danej rýchlosti.
-
-
+## 10. Brzdenie
 ```python
 import math
 

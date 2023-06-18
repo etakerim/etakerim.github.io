@@ -1,7 +1,14 @@
+---
+layout: default
+title: Reťazce a zoznamy - Riešenia
+nav_exclude: true
+---
+
+
 # Ⅴ. Reťazce a zoznamy - Riešenia
 
 
-1. **Vymeň písmeno** - Niekto ti posiela správy s diakritikou, ale po ceste sa vždy prekrúti jedno písmeno. Texty obsahujú aj pekné básne, ktoré si chceš vytlačiť a pripnúť na nástenku. Pokazený znak však kazí celkový dojem z diela. Zameň zadané chybné písmeno v celom reťazci.
+## 1. Vymeň písmeno
 
 ```python
 text = input("Správa: ")
@@ -19,9 +26,8 @@ print("\nOpravené!")
 print(upravene)
 ```
 
----
 
-2. **Cenzúra** - Prišla tvrdá cenzúra s nariadením, že nikto už nesmie vidieť žiadnu samohlásku. Nahraď každý prečin vo vstupnom texte ľubovoľným iným špeciálnym znakom.
+## 2. Cenzúra
 
 ```python
 vstup = input("Správa: ")
@@ -46,9 +52,8 @@ for i in range(len(vstup)):
 print("Cenzurované", vystup)
 ```
 
----
 
-3. **Počítanie slov** - Do redakcie miestnych novín chodia denno denne články, vtipy, poviedky a príbehy zo života od verných čitateľov. Aby mohli byť uverejnené potrebujú sa zmestiť do vyhradeného priestoru. Vypíš počet znakov, slov, viet a normostrán (*=1800 znakov*) pre rýchlejšie spracovanie textov.
+## 3. Počítanie slov
 
 ```python
 clanok = input("Článok: ")
@@ -78,9 +83,8 @@ print(f"Vety: {pocet_viet}")
 print(f"Normostany: {int(pocet_znakov / 1800)}")
 ```
 
----
 
-4. **Najdlhšie slovo** - Hra staršia ako ľudstvo samo. Debatný spolok usporiadal súťaž o nájdenie najdlhšieho slova, ktoré sa kedy vyskytlo v historických prejavoch. Zaujali ťa odmeny, ale nechce sa ti prehrabávať knižnicou starých záznamníkov a preto si prácu uľahčíš. Nájdi najdlhšie slovo v reťazci.
+## 4. Najdlhšie slovo
 
 ```python
 prejav = input("Rečnícky prejav: ")
@@ -98,9 +102,7 @@ for znak in prejav:
 print(f"Najdlhšie slovo v ňom: {najdlhsie}")
 ```
 
----
-
-5. **Frekvencia písmen** - Dlho do noci čítaš časopisy o umelej inteligencii a fascinuje ťa jej schopnosť rozprávať sa s človekom. Na vytvorenie viet na danú tému potrebuje mať prehľad o percentuálnom výskyte hlások v texte. Spočítaj a vypíš zoznam frekvencie písmen v reťazci.
+## 5. Frekvencia písmen
 
 ```python
 clanok = input("Článok: ")
@@ -114,15 +116,13 @@ for pismeno in clanok:
             abeceda[pozicia] += 1
             pismena += 1
 
-for i in range(len(abeceda)):
+for i in range(len(abecedaReťazce a zoznamy - Riešenia)):
     pismeno = chr(ord("A") + i)
     vyskyt = 100 * (abeceda[i] / pismena)
     print(f"{pismeno}: {vyskyt:.2f}%")
 ```
 
----
-
-6. **Histogram** - Pri svojom predchádzajúceho pokuse s početnosťou písmen si všimneš, že každé ďaľšie písmeno v zozname sa oveľa menej objavuje ako očakávaš. Vykresli hviezdičky namiesto počtu percent a over si tak svoje pozorovanie graficky.
+## 6. Histogram
 
 ```python
 clanok = input("Článok: ")
@@ -144,9 +144,8 @@ for i in range(len(abeceda)):
     print(f"{pismeno}: {'*' * vyskyt}")
 ```
 
----
 
-7. **Nákupný košík** - Pri veľkých nákupoch sa často zíde prehľadný zoznam s tým, čo doma treba. Pýtaj si položky s ich cenami až kým sa nerozhodneš, že máš spísané všetko. Zobraz prehľadnú orámovanú tabuľku s údajmi podobne ako na pokladničom bločku (názov tovaru, DPH tovaru, cena tovaru s DPH, celková suma na zaplatenie).
+## 7. Nákupný košík
 
 ```python
 nakup = []
@@ -179,9 +178,8 @@ print(f"|{'CELKOM':20s}|{celkom * 0.2:15.2f}|{celkom:15.2f}|")
 print(riadok)
 ```
 
----
 
-8. **Akronym** - SMS-ky rapídne zdraželi a napadlo ti, že bude lepšie posielať slovné spojenia ako skratky. Zo zadaných slov vytvor akronym. Vezmi začiatočné písmená každého slova a vytvor sktatku, ktorá bude pozostávať len z týchto písmen.
+## 8. Akronym
 
 ```python
 veta = input("Slovné spojenie: ")
@@ -198,9 +196,8 @@ for znak in veta:
 print(f"Skratka: {skratka}")
 ```
 
----
 
-9. **Veľa opakovania** - Roboti rozvážajúci pizzu po meste si zaznamenávajú zmenu smeru pre postupné vylepšovanie trás na lokality k častým zákazníkom. Keďže sa firme darí, prešli roboti už toľko, že sa im všetky záznamy o ich cestách nezmestia do pamäti. Všimneš si, že si značia každý krok a to vedie k častému opakovaniu. Nahraď postupnosť za sebou idúceho písmena, počtom výskytu a písmenom.
+## 9. Veľa opakovania
 
 ```python
 cesta = input("Cesta robota: ")

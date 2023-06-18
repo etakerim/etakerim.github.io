@@ -1,7 +1,13 @@
+---
+layout: default
+title: Súbory - Riešenia
+nav_exclude: true
+---
+
 # Ⅵ. Súbory - Riešenia
 
 
-1. **Prepisovanie** - Pri prepisovaní dlhých textov na vstup programu sa často mýliš a príde ti to zbytočne zdĺhavé. Načítaj články u zadaní z predchádajúcej kapitoly zo súboru, ktorého názov si na začiatku vypýtaš. Pri úlohe "veľa opakovania" ulož záznam o ceste robota do nového súboru.
+## 1. **Prepisovanie**
 
 ```python
 nazov_suboru = input("Názov súboru")
@@ -13,9 +19,7 @@ for riadok in subor:
 subor.close()
 ```
 
----
-
-2. **Turistika** - Na víkend sa črtajú ideálne podmienky na horskú turistiku. Nenecháš nič na náhodu a pripravíš si detailný plán s výškovým profilom trasy. Na každých desať metrov trasy si do súboru poznačíš aktuálnu nadmorskú výšku. Zisti celkové stúpanie a klesanie počas celého výletu spolu s najvyššou a najnižšou nadmorskou výškou. Vypíš aj celkovú dĺžku túry v kilometroch a trvanie prechodu horami v hodinách.
+## 2. Turistika
 
 ```python
 nazov = input("Výškový profil trasy je v súbore: ")
@@ -78,9 +82,7 @@ print(f"Najnižšie miesto trasy: {najnizsie} m")
 print(f"Najvyššie miesto trasy: {najvyssie} m")
 ```
 
----
-
-3. **Vedomostný kvíz** - Bifľovanie ti vôbec nepríde ako zábava. Keby existoval spôsob, ktorým si opakovanie poznatkov spríjemniť. Včera si zo smútku nad vidinou takto premárneho času pri jedení čokolády a čipsov pozeral kvízovú reláciu. Prišlo ti to neuveriteľne poučné. Polož náhodnú otázku s možnostami zo súboru kvízových otázok a bodovo ohodnoť správnu odpoveď. Všetky kvízové otázky s možnosťami sa však nezmestia do pamäti programu, preto vždy vyber náhodnu otázku priamo zo súboru.
+## 3. Vedomostný kvíz
 
 ```python
 import random
@@ -131,9 +133,8 @@ while True:
 kviz.close()
 ```
 
----
 
-4. **Narodeniny** - Darčeky k narodeninám zvykneš kupovať na poslednú chvílu. Potrebuješ mať prehľad aspoň na mesiac dopredu, kto bude mať narodeniny, aby si stihol vybrať niečo výnimočné. Zo súboru načítaj ľudí, ktorí majú sviatok v požadovaný mesiac v roku.
+## 4. Narodeniny
 
 ```python
 datum = input("Zobraz narodeniny pre mesiac v roku: ")
@@ -163,9 +164,8 @@ for osoba in narodeniny:
 narodeniny.close()
 ```
 
----
 
-5. **Pripomienky v kalendári** - Po čase zistíš, že jednoduchšie by bolo, ak by sa ti týždeň pred kamarátovými narodeninami objavila pripomienka v tvojom osobnom elektronickom kalendári. Máš veľa kontaktov, nechceš ich však všetky prepisovať ručne. Zistiš, že zoznam narodenín môžeš do kalendárovej aplikácie vložiť vo formáte *iCalendar (.ics)*. Preveď súbor s menami a dátumami narodenia do tejto podoby.
+## 5. Pripomienky v kalendári
 
 ```python
 from datetime import datetime
@@ -234,11 +234,8 @@ narodeniny.close()
 kalendar.close()
 ```
 
----
 
-
-6. **Cestovné poriadky** - Z celoštátneho rýchlika prestupujú v okresných mestách cestujúci na miestne autobusy.  Podľa času odchodu a trvania cesty zisti, ktorý autobus stihnú a vypíš najbližší spoj s najmenším čakaním medzi vlakom a autobusom. Daj pozor, pretože prvý časový údaj v riadku s odchodmi autobusu je v skutočnosti trvanie cesty vlakom, kým sa dostaneš do stanice, odkiaľ odchádza ten autobus.
-
+## 6. Cestovné poriadky
 
 ```python
 odchod = input("Čas: ")

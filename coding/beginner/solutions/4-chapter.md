@@ -1,7 +1,13 @@
+---
+layout: default
+title: Náhodné čísla - Riešenia
+nav_exclude: true
+---
+
 # Ⅳ. Náhodné čísla - Riešenia
 
 
-1. **Hádzanie kockou** - Vytvorte simuláciu hodu kockou. Po stlačení klávesy Enter sa nakreslí kocka s padnutým číslom.
+## 1. Hádzanie kockou
 
 ```python
 import random
@@ -48,9 +54,7 @@ while True:
               "+-------+")
 ```
 
----
-
-2. **Hádaj číslo** - Náhodne vyber číslo s rozsahu medzi 0 a 100 a nechaj hráča hádať dokým neuhádne. Pri tom mu poskytni nápovedy, či je jeho tip priveľa alebo primalo. Zakomponuj rôzne obtiažnosti s možnosťou nastavenia rozsahu alebo maximálnym počtom tipov.
+## 2. Hádaj číslo
 
 ```python
 import random
@@ -69,10 +73,8 @@ while True:
         break
 ```
 
----
 
-
-3. **Opakovanie násobilky** - Vďaka tvojej tabuľke malej násobilky sa malý školáci mohli naučiť násobiť. Ako dobre to vedia, musíš teraz odtestovať. Vygeneruj dve čísla od 1 do 10 do príkladu na násobenie. Over správnosť žiačikovej odpovede.
+## 3. Opakovanie násobilky
 
 ```python
 import random
