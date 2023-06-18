@@ -1,4 +1,6 @@
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.5.3
+plugins:
+- jekyll-remote-theme
 title: Informatika pre SŠ
 description: Vzdelávacie materiály pre predmet Informatika
 show_downloads: false
