@@ -4,3 +4,6 @@ plugins:
 title: Informatika
 description: Vzdelávacie materiály pre predmet Informatika
 show_downloads: false
+compress_html:
+  blanklines: true
+latex: katex

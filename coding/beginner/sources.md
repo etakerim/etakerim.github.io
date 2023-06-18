@@ -1,3 +1,9 @@
+---
+layout: default
+title: Zdroje a literatúra
+nav_exclude: true
+---
+
 ## Zdroje a literatúra
 
 < https://testovac.ksp.sk/tasks/ >, Korešpondenčný seminár programovania, Trojsten o.z., FMFI UK

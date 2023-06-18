@@ -1,3 +1,9 @@
+---
+layout: default
+title: Animácia
+nav_order: 10
+---
+
 # III. Animácia
 
 1. Farebný kruh ("loptu") premiestnite animáciou, rovnomernou rýchlosťou, z ľavého do pravého

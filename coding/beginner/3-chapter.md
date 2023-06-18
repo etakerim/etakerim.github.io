@@ -153,4 +153,4 @@ Rok				Suma         Úrok
 ```
 
 ## Vzorové riešenia:
-[Riešenia k 3.kapitole](/Hackerman/tasks-solutions/3-chapter.html)
+[Riešenia k 3. kapitole](/coding/beginner/solutions/3-chapter.html)

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Mikulášska sánkovačka
+nav_exclude: true
+---
+
 
 # Vianočná počítačová hra
 

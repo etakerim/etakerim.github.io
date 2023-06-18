@@ -1,3 +1,9 @@
+---
+layout: default
+title: Predslov
+nav_exclude: true
+---
+
 # Predslov
 
 

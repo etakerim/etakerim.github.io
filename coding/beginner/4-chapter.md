@@ -47,4 +47,4 @@ Chceš ďalší príklad?
 ```
 
 ## Vzorové riešenia:
-[Riešenia k 4.kapitole](/coding/beginner/solutions/4-chapter.html)
+[Riešenia k 4. kapitole](/coding/beginner/solutions/4-chapter.html)

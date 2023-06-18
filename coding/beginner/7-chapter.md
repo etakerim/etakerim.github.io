@@ -250,5 +250,5 @@ C, 1, 1, >, C
 
 
 ## Vzorové riešenia:
-[Riešenia k 7.kapitole](/coding/beginner/solutions/7-chapter.html)
+[Riešenia k 7. kapitole](/coding/beginner/solutions/7-chapter.html)
  

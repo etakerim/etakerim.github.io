@@ -1,3 +1,9 @@
+---
+layout: default
+title: Nápady na programátorské projekty
+nav_exclude: true
+---
+
 # Nápady na programátorské projekty
 
 ## Arkádové a stolné hry

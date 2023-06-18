@@ -20,6 +20,7 @@ Vstúp, priateľ /   Zmizni kade ľahšie
 ```
 
 ## 2. Najväčšie číslo
+
 ```## Cvičenia:
 1.číslo: ____
 2.číslo: ____
@@ -99,4 +100,4 @@ Trojuholník je: ____, _____
 ```
 
 ## Vzorové riešenia:
-[Riešenia k 2.kapitole](/coding/beginner/solutions/2-chapter.html)
+[Riešenia k 2. kapitole](/coding/beginner/solutions/2-chapter.html)

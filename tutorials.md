@@ -1,3 +1,9 @@
+---
+layout: default
+title:  Animácia sekvencie obrázkov v Pythone
+nav_exclude: true
+---
+
 # Animácia sekvencie obrázkov v Pythone
 
 *Autor: Miroslav Hájek, 2018-07-31*

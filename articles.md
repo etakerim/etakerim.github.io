@@ -1,3 +1,10 @@
+---
+layout: default
+title: Zaujímavé články z Informatiky
+nav_exclude: true
+---
+
+
 # Zaujímavé články z Informatiky
 
 ## Programovanie v Pythone

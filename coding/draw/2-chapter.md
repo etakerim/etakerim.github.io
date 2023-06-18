@@ -1,3 +1,9 @@
+---
+layout: default
+title: Grafy
+nav_order: 10
+---
+
 # II. Grafy
 
 1. Nakreslite mriežku karteziánskych súradníc s počiatkom v strede okna a zaznačte doň graf

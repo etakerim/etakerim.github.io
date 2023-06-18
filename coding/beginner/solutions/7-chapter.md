@@ -1,3 +1,9 @@
+---
+layout: default
+title: Funkcie - Riešenia
+nav_exclude: true
+---
+
 # Ⅶ. Funkcie - Riešenia
 
 

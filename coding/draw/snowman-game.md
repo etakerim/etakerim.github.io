@@ -1,3 +1,9 @@
+---
+layout: default
+title: Snehuliaci útočia
+nav_exclude: true
+---
+
 
 # Vianočná počítačová hra
 ## Snehuliaci útočia

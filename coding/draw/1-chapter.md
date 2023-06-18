@@ -1,3 +1,9 @@
+---
+layout: default
+title: Nehybné obrazce
+nav_order: 9
+---
+
 # I. Nehybné obrazce
 
 1. Nakreslite na veľkosť celého grafického okna spolu štyri čiary. Dve na seba kolmé prechádzajúce stredom a dve diagonály spájajúce protiľahlé rohy.

@@ -147,4 +147,4 @@ V rýchlosti ____ km/h zabrzdí súprava s hmotnosťou ____ t na vzdialnosť ___
 ```
 
 ## Vzorové riešenia:
-[Riešenia k 1.kapitole](/coding/beginner/solutions/1-chapter.html)
+[Riešenia k 1. kapitole](/coding/beginner/solutions/1-chapter.html)

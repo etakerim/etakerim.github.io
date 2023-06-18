@@ -4,10 +4,12 @@ title: Úvod
 nav_order: 1
 ---
 
+
 # Informatika pre gymnázia
 
 - **Autor**: Bc. Miroslav Hájek
-- **Licencia:** [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 
+- **Licencia:** [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
+
 ---
 
 ## Učebnice
@@ -17,7 +19,9 @@ nav_order: 1
 - [Kuchárka KSP (Trojsten, o.z.)](https://www.ksp.sk/kucharka/)
 - [Príručka digitálnej bezpečnosti (Eset, s.r.o.)](https://bezpecnenanete.eset.com/sk/materialy-pre-ucitelov-na-stiahnutie/)
 
+
 ---
+
 
 ## Programovanie v Pythone
 
@@ -50,7 +54,9 @@ nav_order: 1
 - [Mikulášska sánkovačka](/coding/draw/santa-game.html)
 - [Nápady na projekty](/ideas.html)
 
+
 ---
+
 
 ## Prezentácie
 - [Základy informatiky a Stavba počítača](/slides/Základy-informatiky.pdf)
@@ -69,7 +75,10 @@ nav_order: 1
 - [Jazyk HTML](/tasks/simple-website.html)
 - [Google Drive](https://drive.google.com/drive/folders/1Vtb_7fc81BYiRPSoRWICu4w5LvOYGaAL?usp=sharing)
 
+
 ---
+
+
 ## Vzdelávací softvér
 
 - [Zoznam programov](/tasks/edu-software.html)

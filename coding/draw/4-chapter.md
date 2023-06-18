@@ -1,3 +1,9 @@
+---
+layout: default
+title: Scény
+nav_order: 11
+---
+
 # IV. Scény
 
 1. **10 PRINT** - Vytvorte mriežku čiar, v ktorej každé políčko bude náhodne tvorené čiarou z ľavého horného do prvého
