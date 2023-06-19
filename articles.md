@@ -11,7 +11,7 @@ nav_exclude: true
 ### Základy
 - [Zbierka úloh programovanie](https://sites.google.com/site/rosicova/studijne-materialy/programovanie/zbierka-uloh)
 - [Pracovné listy pre programovanie v Pythone pre stredné školy](https://abcpython.input.sk/)
-- [Základy programovania v Pythone (Matfyz)](https://python.input.sk/) (Archív](https://input.sk/python2016/ , https://input.sk/pdf/python.pdf )
+- [Základy programovania v Pythone (Matfyz)](https://python.input.sk/) [Archív](https://input.sk/python2016/), [Archív 2](https://input.sk/pdf/python.pdf)
 - [Automate the Boring Stuff with Python (Online kniha)](http://automatetheboringstuff.com/)
 - [Django web development in Python](https://tutorial.djangogirls.org/sk/)
 - [Nauč se Python](https://naucse.python.cz/)
@@ -111,11 +111,8 @@ nav_exclude: true
 - [Making maps with noise functions](https://www.redblobgames.com/maps/terrain-from-noise/)
 
 ### Simulácie
-- [The Nature of Code (kniha o programovaní simulácií a 2D hier v Processing):
-https://natureofcode.com/book/)
--
-The Coding Train (Programovanie v p5.js a Processing):
-https://thecodingtrain.com/guides/getting-started)
+- [The Nature of Code (kniha o programovaní simulácií a 2D hier v Processing)](https://natureofcode.com/book/)
+- [The Coding Train (Programovanie v p5.js a Processing)](https://thecodingtrain.com/guides/getting-started)
 
 ### Audiovizuálna časť
 - 2D editor rastrovej (Photoshop, Gimp) alebo vektorovej grafiky (Illustrator,
@@ -123,11 +120,11 @@ Inkscape)
 - 3D editor (Blender)
 - [Editor hudby (Audacity, Cubase)
 - [Royality Free Hudba a Zvukové efekty:
-- [https://incompetech.com/music/royalty-free/music.html)
-- [https://audionautix.com/)
-- [https://freemusicarchive.org/)
-- [https://www.joshwoodward.com/)
-- [https://freesound.org/ (vyžaduje free registráciu na sťahovanie)
+- [https://incompetech.com/music/royalty-free/music.html]
+- [https://audionautix.com/]
+- [Free music archive](https://freemusicarchive.org/)
+- [https://www.joshwoodward.com/]
+- [https://freesound.org/] (vyžaduje free registráciu na sťahovanie)
 
 ## Algoritmy
 - [Kuchárka KSP (študijné texty algoritmov a dátových štruktúr)](https://www.ksp.sk/kucharka/)
@@ -172,6 +169,15 @@ Inkscape)
 - [How TCP Works](https://www.youtube.com/playlist?list=PLW8bTPfXNGdAZIKv-y9v_XLXtEqrPtntm)
 - [CCNA - Úvod do sietí (A.Valach)](https://www.youtube.com/playlist?list=PLLUXn2ms3OdwKaoYtWzj534tVvlmZn7Pe)
 - [IPv4 Subnetting (A.Valach)](https://www.youtube.com/playlist?list=PLLUXn2ms3OdxkTZ-48-Z1K8cLbbdR2MR3)
+
+### Základy počítačových sietí
+- [Submarine Cable Map](https://www.submarinecablemap.com/)
+- [Počítačové siete - Rozdelenie podľa rozlohy - PAN, LAN, MAN a WAN](https://encyklopediapoznania.sk/clanok/405/pocitacove-siete-rozdelenie-podla-rozlohy-pan-lan-man-a-wan)
+- [Topológia sietí](http://pcsiete.weblahko.sk/Poda-topologie.html)
+- [Rozdelenie podľa topológie](https://slavomajovsky.wixsite.com/aktivnepcprvky/podla-topologie)
+- [Počítačové siete – základné topológie](http://tech.sosthe.sk/index.php/2020/04/07/2-pocitacove-siete-zakladne-topologie/)
+- [Nositeľná elektronika expanduje, inteligentné hodinky postupne vytláčajú náramky](https://zive.aktuality.sk/clanok/6xd6etp/nositelna-elektronika-expanduje-inteligentne-hodinky-postupne-vytlacaju-naramky/)
+- [Telekom: Niektorí klienti neprenesú žiadne dáta, aj keď majú gigabajty. Zameriame sa na kapacitu, 4G+ a VoLTe](https://zive.aktuality.sk/clanok/137652/telekom-niektori-klienti-neprenesu-ziadne-data-aj-ked-maju-gigabajty-zameriame-sa-na-kapacitu-4g-a-volte/)
 
 ## Linux
 - [Bash scripting cheatsheet](https://devhints.io/bash)

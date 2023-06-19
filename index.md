@@ -51,7 +51,7 @@ nav_order: 1
 ### Projekty
 - [Snehuliaci útočia](/coding/projects/snowman-game.html)
 - [Mikulášska sánkovačka](/coding/projects/santa-game.html)
-- [Korytnačia grafika](coding/projects/tutle-graphics.html)
+- [Korytnačia grafika](coding/projects/turtle-graphics.html)
 - [Animácia sekvencie obrázkov](coding/projects/stickman-animation.html)
 - [Nápady na projekty](/ideas.html)
 
