@@ -1,3 +1,9 @@
+---
+layout: default
+title: Zásady pri tvorbe prezentácie
+nav_exclude: true
+---
+
 # Zásady pri tvorbe prezentácie
 
 **Pôvodný autor**: RNDr. Gabriela Kövesiová, Gymnázium Štefana Moysesa, Moldava nad Bodvou

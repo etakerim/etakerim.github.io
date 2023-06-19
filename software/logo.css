@@ -1,0 +1,102 @@
+body {
+    background: #ccc;
+    width: 800px;
+    margin: 0 auto;
+}
+
+ul { 
+    list-style-type: none;
+    padding: 0;
+}
+
+li { 
+    display: inline;
+    cursor: pointer;
+    border: 1px solid #444;
+    border-radius: 0.3em;
+    background-color: #fefefe;
+    padding: 0.5em 1.5em;
+}
+
+li:hover {
+    background-color: #eee;
+}
+
+#command {
+    width: 100%;
+    font-size: 15px;
+    font-family: monospace;
+    padding: 0.5rem 1rem;
+    margin-top: 0.2rem;
+    line-height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+}
+
+textarea:focus, 
+input:focus {
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    overflow-y: scroll;
+    resize: none;
+}
+
+#log {
+    height: 5rem;
+    padding: 0.5rem 1rem;
+}
+
+#procedure {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    height: 15rem;
+}
+
+#canvas {
+    margin: 1rem;
+    margin-top: 0.2rem;
+    background-color: white;
+}
+
+#dialog {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    z-index: 1;
+    padding-top: 5rem;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#modal {
+    background-color: #fefefe;
+    width: 50%;
+    margin: auto;
+    min-width: 100px;
+    max-width: 500px;
+    padding: 2rem;
+    border: 1px solid #888;
+} 
+
+h4, p {
+    margin: 0;
+}
+
+#close {
+    color: #777;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+    color: black;
+    cursor: pointer;
+} 

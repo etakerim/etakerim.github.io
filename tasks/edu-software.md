@@ -1,3 +1,9 @@
+---
+layout: default
+title: Vzdelávací otvorený softvér
+nav_exclude: true
+---
+
 # Vzdelávací otvorený softvér
 
 

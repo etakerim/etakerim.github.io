@@ -42,7 +42,6 @@ nav_order: 1
 - [II. Grafy](/coding/draw/2-chapter.html)
 - [III. Animácia](/coding/draw/3-chapter.html)
 - [IV. Scény](/coding/draw/4-chapter.html)
-- [V. Kolízie](/coding/draw/snowman-game.html)
 
 ### Prehľady príkazov
 - [Python č.1](/cheetsheets/Python-príkazovník.pdf)
@@ -50,9 +49,27 @@ nav_order: 1
 - [Pygame](/cheetsheets/Pygame-príkazovnik.pdf)
 
 ### Projekty
-- [Snehuliaci útočia](/coding/draw/snowman-game.html)
-- [Mikulášska sánkovačka](/coding/draw/santa-game.html)
+- [Snehuliaci útočia](/coding/projects/snowman-game.html)
+- [Mikulášska sánkovačka](/coding/projects/santa-game.html)
+- [Korytnačia grafika](coding/projects/tutle-graphics.html)
+- [Animácia sekvencie obrázkov](coding/projects/stickman-animation.html)
 - [Nápady na projekty](/ideas.html)
+
+
+
+
+---
+
+## Úlohy
+- [Zásady tvorby prezentácie](/tasks/presentations.html)
+- [Digitalizácia](/tasks/media-digitization-test.html)
+- [Výpočet veľkosti súborov](/tasks/encodings.html)
+- [Užitočné webové portály](/tasks/useful-websites.html)
+- [Úprava multimédií](/tasks/multimedia-editing.html)
+- [Jazyk HTML](/tasks/simple-website.html)
+
+
+- [Google Drive](https://drive.google.com/drive/folders/1Vtb_7fc81BYiRPSoRWICu4w5LvOYGaAL?usp=sharing)
 
 
 ---
@@ -69,27 +86,21 @@ nav_order: 1
 - [Neurónové siete](/slides/Neuronove-siete.pdf)
 - [Fourierová transformácia](/slides/Fourierová-transformácia.pdf)
 
-## Úlohy
-- [Zásady tvorby prezentácie](/tasks/presentations.html)
-- [Užitočné webové portály](/tasks/useful-websites.html)
-- [Jazyk HTML](/tasks/simple-website.html)
-- [Google Drive](https://drive.google.com/drive/folders/1Vtb_7fc81BYiRPSoRWICu4w5LvOYGaAL?usp=sharing)
 
 
 ---
+
+## Galéria žiackych diel
+- [Galéria](/gallery.html)
+
+
+## Zaujímavé články z informatiky
+
+- [Články](/articles.html)
 
 
 ## Vzdelávací softvér
 
 - [Zoznam programov](/tasks/edu-software.html)
-
-
-## Návody
-
-- [Návody](/tutorials.html)
-
-
-## Zaujímavé články
-
-- [Články](/articles.html)
+- [Korytnačka Žofka](/software/zofka.html)
 
