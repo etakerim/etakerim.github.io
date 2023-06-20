@@ -68,7 +68,7 @@ nav_order: 1
 - [Užitočné webové portály](/tasks/useful-websites.html)
 - [Úprava multimédií](/tasks/multimedia-editing.html)
 - [Fotografia](/tasks/foto-project.html)
-- [Rôzne](/tasks/excercises.html)
+- [Rôzne](/tasks/exercises.html)
 - [Jazyk HTML](/tasks/simple-website.html)
 
 
