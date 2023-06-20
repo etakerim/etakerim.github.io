@@ -72,3 +72,59 @@ Vedľajšia stránka
 </body>
 </html>
 ```
+
+## Predloha pre Blog
+
+```html
+<html>
+    <head>
+        <title>Osobný blog</title>
+        <style>
+        body {
+            background-color: white;
+        }
+
+        table, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Môj blog</h1>
+        <p>
+        Vitajte na mojom <b>osobnom blogu</b>. Buďte tu ako doma.
+        </p>
+        Téma
+        <ol>
+            <li>Osobný blog</li>
+            <li>Zápisník</li>
+            <li>Zápisník</li>
+        </ol>
+
+        <!-- Obrázky -->
+        <img src="kvet.JPG" width="50%">
+
+        <!-- Odkazy -->
+        <a href="https://sk.wikipedia.org/wiki/Kvet">Klikni tu</a>
+
+        <!-- Tabuľky -->
+        <table>
+            <tr>
+                <td>Meno</td>
+                <td>Priezvisko</td>
+            </tr>
+            <tr>
+                <td>Miroslav</td>
+                <td>Hájek</td>
+            </tr>
+        </table>
+
+
+    </body>
+</html>
+```

@@ -19,9 +19,14 @@ nav_exclude: true
 ## 2. Zvukový súbor
 
 - a) Akú veľkosť má 20 sekundová zvuková nahrávka so vzorkovaciou frekvenciou 48 000 Hz a bitovou hĺbkou 16 bitov. Odpoveď vyjadrite v kB (nie kbit).
+
 - b) Určite veľkosť nekomprimovaného zvukového súboru nahrávky telefónneho hovoru o dĺžke 3 minúty 20 sekúnd so vzorkovaciou frekvenciou 8 KHz, bitovou hĺbkou 8 bitov, mono. Odpoveď uveďťe v MB (Megabajtoch) zaokruhlené na 2 desatinné miesta.
+
 - c) Akú minimálne vzorkovaciu frekvenciu potrebujeme na záznam klarinetu? (nápoveda: využite Nyquistovu vetu o vzorkovaní)
+
 - d) Akú veľkosť bude mať stereo nahrávka z úlohy 2c, keď máme nekomprimovaný 14 sekundový záznam s bitovou hĺbkou 24 bitov?
+
+![Hudobné nástroje](assets/instruments.png)
 
 
 ## 3. Rastrová grafika
@@ -47,5 +52,6 @@ nav_exclude: true
     48 000  * 16 * 20 = 15 360 000 b
     48 000 * 2 * 20 = 1 920 000 B
     1 920 000 B / 1024 = 1875 kB
+
 
 

@@ -14,6 +14,7 @@ nav_order: 1
 
 ## Učebnice
 - [AbcPython (Andrej Blaho, Ľubomír Salanci)](https://abcpython.input.sk/)
+- [Programujeme v Pythone (Peter Kučera)](http://www.programujemevpythone.sk/)
 - [Python 2016 (Andrej Blaho)](https://input.sk/python2016/)
 - [Python tutoriál (Andrej Korman)](https://people.ksp.sk/~ajo/osp/python_tutorial.pdf)
 - [Kuchárka KSP (Trojsten, o.z.)](https://www.ksp.sk/kucharka/)
@@ -52,10 +53,8 @@ nav_order: 1
 - [Snehuliaci útočia](/coding/projects/snowman-game.html)
 - [Mikulášska sánkovačka](/coding/projects/santa-game.html)
 - [Korytnačia grafika](coding/projects/turtle-graphics.html)
-- [Animácia sekvencie obrázkov](coding/projects/stickman-animation.html)
+- [Animácia sekvencie obrázkov](/coding/projects/stickman-animation.html)
 - [Nápady na projekty](/ideas.html)
-
-
 
 
 ---
@@ -63,13 +62,15 @@ nav_order: 1
 ## Úlohy
 - [Zásady tvorby prezentácie](/tasks/presentations.html)
 - [Digitalizácia](/tasks/media-digitization-test.html)
+- [Digitalizácia - Písomka](/tasks/digitization-test.html)
+- [Kontrolné kódy](/tasks/self-correcting-codes.html)
 - [Výpočet veľkosti súborov](/tasks/encodings.html)
 - [Užitočné webové portály](/tasks/useful-websites.html)
 - [Úprava multimédií](/tasks/multimedia-editing.html)
+- [Fotografia](/tasks/foto-project.html)
+- [Rôzne](/tasks/excercises.html)
 - [Jazyk HTML](/tasks/simple-website.html)
 
-
-- [Google Drive](https://drive.google.com/drive/folders/1Vtb_7fc81BYiRPSoRWICu4w5LvOYGaAL?usp=sharing)
 
 
 ---

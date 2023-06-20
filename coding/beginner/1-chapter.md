@@ -66,7 +66,7 @@ Doma by to bolo _____°C.
 Stojíš na útese nad hlbokým údolím a rozmýšlaš ako odmerať jej hĺbku (*h*). Vtom ťa osvietia tvoje dávne vedomosti z fyziky. Zoberieš do ruky kameň a pustíš ho z ruky do rokliny.
 Zároveň spustíš stopy a zmeriaš čas dopadu (rýchlosť zvuku rachotu pri náraze na zem môžeme zanedbať). Na kameň pôsobí tiažové zrýchlenie (*g = 9.81*) a pohybuje sa nadol rovnomerným spomaleným pohybom:
 
-h = \frac{gt^2}{2}
+$$ h = \frac{gt^2}{2} $$
 
 ```
 Čas dopadu kameňa (s): ________
@@ -127,7 +127,20 @@ Výdatnosť farby (m²/kg): ____
 Maľovať budeš plochu ____ m². Kúp ____ kg farby.
 ```
 
-## 10. Brzdenie
+## 10. Maľovanie
+Do banky vložíme peniaze (vklad)  a každý rok sa nám na nich pripočítava úrok. V banke necháme peniaze určitý počet rokov. Vypočítajte ako sumu dostaneme pri výbere.
+
+Napíš program, ktorý nám umožní na vstupe napísať rôzne sumy peňazí, úrokové miery a obdobie sporenia a na výstupe vypíše nasporenú sumu. Vyberte si, či použijete jednoduché alebo zložené úročenie - vzorec nájdite na internete alebo v zošite matematiky. Spustenie programu môže vyzerať nasledovne (pri jednoduchom úročení):
+
+```
+Vklad (€): ____
+Úrok (%): ___
+Dĺžka sporenia (rok): ___
+
+Na konci sporenia si v banke vyberieš _____ €.
+```
+
+## 11. Brzdenie
 V poslednej dobe je na trati viacej nebezpečných zrážok. Rušňovodiči ťa požiadali, aby si zistil ako rýchlo pred prekážkou dokáže vlaková súprava zastaviť pri danej rýchlosti.
 - Kinetická energia pohybujúceho sa vlaku (práca potrebná na zabrzdenie): $ W = E_k = \frac{1}{2} \cdot m \cdot v^2 $
 - Brzdná dráha pri brzdnej sile $F_b$: $ s = \frac{W}{F_b \cdot m} $
