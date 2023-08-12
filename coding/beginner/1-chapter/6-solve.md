@@ -1,3 +1,9 @@
+---
+layout: default
+title: Premenné
+nav_exclude: true
+---
+
 ## 6. Vedro s vodou
 
 ```python

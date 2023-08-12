@@ -1,3 +1,9 @@
+---
+layout: default
+title: Premenné
+nav_exclude: true
+---
+
 ## 1. Pozdrav
 
 ```python

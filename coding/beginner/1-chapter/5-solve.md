@@ -1,3 +1,9 @@
+---
+layout: default
+title: Premenné
+nav_exclude: true
+---
+
 ## 5. Hlboká roklina
 
 ```python

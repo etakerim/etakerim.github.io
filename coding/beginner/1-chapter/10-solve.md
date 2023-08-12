@@ -1,3 +1,10 @@
+---
+layout: default
+title: Premenné
+nav_exclude: true
+---
+
+
 ## 10. Chemikálie
 
 ```python

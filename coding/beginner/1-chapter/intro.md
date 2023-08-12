@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Premenné
-nav_order: 2
+nav_exclude: true
 ---
 
 # 1. Premenné
