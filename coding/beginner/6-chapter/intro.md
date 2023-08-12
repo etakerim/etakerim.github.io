@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Súbory
-nav_order: 7
+nav_exclude: true
 ---
 
-# Ⅵ. Súbory
+# 6. Súbory
 
 
 **Súbor** je zoskupením súvisiacich údajov, ktoré sú uložené na disku počítača. Oproti načítavaniu vstupu z klávesnice majú výhodu hlavne pri spracovaní a uchovaní veľkého množstva dát. Súbory sa dajú: *vytvoriť* / *vymazať*, *otvoriť / zatvoriť*, *čítať* / *zapisovať*. Podľa typu uchovávaných údajov (označované *príponou*)  súbory rozdeľujeme na:
