@@ -1,3 +1,9 @@
+---
+layout: default
+title: Zbierka úloh s riešeniami
+nav_order: 2
+---
+
 # Zbierka úloh s riešeniami
 
 - [Predhovor](/coding/beginner/preface.html)
