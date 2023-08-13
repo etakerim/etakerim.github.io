@@ -11,7 +11,7 @@ Základné stavebné kamene, z ktorých vyskladáme opis zložitejších javov s
 
 * **Logická hodnota** (*bool*) - Boolean môže mať len dve hodnoty - pravda (*True*) alebo nepravda (*False*)
 
-* **Celé číslo** (*int*) - Do integer-u ukladáme ľubovolné kladné a záporné celé čísla (napr. *97*)
+* **Celé číslo** (*int*) - Do integer-u ukladáme ľubovoľné kladné a záporné celé čísla (napr. *97*)
 
 * **Desatinné číslo** (*float*) - Líšia sa od celých čísel spôsobom uloženia (napr. *3.14159*)
 
