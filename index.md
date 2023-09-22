@@ -24,6 +24,20 @@ nav_order: 1
 - [Kuchárka KSP (Trojsten, o.z.)](https://www.ksp.sk/kucharka/)
 - [Príručka digitálnej bezpečnosti (Eset, s.r.o.)](https://bezpecnenanete.eset.com/sk/materialy-pre-ucitelov-na-stiahnutie/)
 
+
+## Prezentácie
+- [Základy pojmy informatiky a Stavba počítača](/slides/Základy-informatiky.pdf)
+- [Digitalizácia údajov](/slides/Digitalizácia-údajov.pdf)
+- [Algoritmy](/slides/Algoritmy.pdf)
+- [Operačné systémy](/slides/Operačné-systémy.pdf)
+- [Počítačové siete & WWW](/slides/Počítačové-siete.pdf)
+- [Digitálna fotografia](/slides/Digitálna-fotografia.pdf)
+- [Umelá inteligencia vo smartfóne](/slides/UI-Smartfóny-Domácnosť.pdf)
+- [Vektory](/slides/Vektory.pdf)
+- [Neurónové siete](/slides/Neuronove-siete.pdf)
+- [Fourierová transformácia](/slides/Fourierová-transformácia.pdf)
+
+
 ---
 
 ## Úlohy
@@ -38,20 +52,33 @@ nav_order: 1
 - [Rôzne](/tasks/exercises.html)
 - [Jazyk HTML](/tasks/simple-website.html)
 
+---
+
+## Učebné texty pre maturantov
+- [Základné pojmy informatiky](/theory/Základné-pojmy.pdf)
+- [Digitalizácia textu](/theory/Digitalizácia-textu.pdf)
+- [Digitalizácia obrazu](/theory/Digitalizácia-obrazu.pdf)
+- [Digitalizácia zvuku](/theory/Digitalizácia-zvuku.pdf)
+- [Generácie počítačov](/theory/Generácie-PC.pdf)
+- [Klasifikácia počítačov](/theory/Klasifikácia-PC.pdf)
+- [Bloková schéma počítača](/theory/Von-Neumann.pdf)
+- [Pamäte](/theory/Pamäte.pdf)
+- [Počítačové siete](/theory/PočítačovéSiete.pdf)
+- [Počítačové siete (iný text)](/theory/siete.pdf)
+- [Internet](/theory/Internet.pdf)
+- [Web 2.0](/theory/Web2.pdf)
+- [Bezpečnosť informačných systémov](/theory/Bezpečnosť-IS.pdf)
+- [Etapy riešenia problému](/theory/Algoritmy.pdf)
 
 ---
 
+## Informatické súťaze
+- [KSP (Korešpondenčný seminár z programovania)](https://www.ksp.sk/ulohy/) do 30.10.2023 prebieha 1.časť 1.kolo
+- [Zenit v programovaní](https://zenit.ksp.sk/) - Školské kolo 17.10.2023 v čase od 9:00 do 13:00.
+- [SOČ (Stredoškolská odborná činnosť)](https://siov.sk/sutaze/stredoskolska-odborna-cinnost/)
+- [OI (Olympiáda v informatike)](https://oi.sk/?d=rocnik) - Kategória A (všetci) Domáce kolo prebieha do 15.11.2023
+- [Junior Internet](https://www.juniorinternet.sk/cms/)
 
-## Prezentácie
-- [Základy informatiky a Stavba počítača](/slides/Základy-informatiky.pdf)
-- [Algoritmy](/slides/Algoritmy.pdf)
-- [Operačné systémy](/slides/Operačné-systémy.pdf)
-- [Počítačové siete & WWW](/slides/Počítačové-siete.pdf)
-- [Digitálna fotografia](/slides/Digitálna-fotografia.pdf)
-- [Umelá inteligencia vo smartfóne](/slides/UI-Smartfóny-Domácnosť.pdf)
-- [Vektory](/slides/Vektory.pdf)
-- [Neurónové siete](/slides/Neuronove-siete.pdf)
-- [Fourierová transformácia](/slides/Fourierová-transformácia.pdf)
 
 ---
 
