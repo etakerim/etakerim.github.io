@@ -118,4 +118,5 @@ nav_order: 1
 ## Vzdelávací softvér
 - [Zoznam programov](/tasks/edu-software.html)
 - [Korytnačka Žofka](/software/zofka.html)
+- [Frekvencie - animácia](/software/sinusoid-winding.html)
 
