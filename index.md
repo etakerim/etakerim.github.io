@@ -11,6 +11,8 @@ nav_order: 1
 - **Školský rok**: 2023/2024
 - **Licencia:** [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 
+---
+
 ### Google Drive
 - [Google Drive](https://drive.google.com/drive/folders/1Vtb_7fc81BYiRPSoRWICu4w5LvOYGaAL?usp=sharing)
 
@@ -24,6 +26,7 @@ nav_order: 1
 - [Kuchárka KSP (Trojsten, o.z.)](https://www.ksp.sk/kucharka/)
 - [Príručka digitálnej bezpečnosti (Eset, s.r.o.)](https://bezpecnenanete.eset.com/sk/materialy-pre-ucitelov-na-stiahnutie/)
 
+---
 
 ## Prezentácie
 - [Základy pojmy informatiky a Stavba počítača](/slides/Základy-informatiky.pdf)
