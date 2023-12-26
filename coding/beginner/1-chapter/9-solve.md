@@ -26,7 +26,7 @@ vydatnost = input("Výdatnosť farby (m^2/kg): ")
 
 # Premeň z písmen na čísla
 sirkaOkna = int(sirkaOkna)
-vyskaOkna = int(sirkaOkna)
+vyskaOkna = int(vyskaOkna)
 vydatnost = float(vydatnost)
 
 # Spočítaj plochy stien, stropu a odpočítaj plochu okna
@@ -36,7 +36,7 @@ PlochaOkno = sirkaOkna * vyskaOkna
 S = (PlochaMiestnost - PlochaOkno) / 10000
 farbaKg = S / vydatnost
 
-print(f"Maľovať budeš plochu {S:.2f} m2.")
+print(f"Maľovať budeš plochu {S:.2f} m^2.")
 print(f"Kúp {farbaKg:.2f} kg farby.")
 ```
 
