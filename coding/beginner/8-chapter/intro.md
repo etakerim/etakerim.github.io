@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Funkcie
+title: Kreslenie
 parent: Zbierka úloh s riešeniami
 nav_order: 8
 ---
