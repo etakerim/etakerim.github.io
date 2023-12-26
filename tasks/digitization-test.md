@@ -1,3 +1,10 @@
+---
+layout: default
+title: Informatika ako veda
+nav_exclude: true
+---
+
+
 # Informatika ako veda
 - Ročník: I.ročník SŠ
 

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Rastrová grafika
+nav_exclude: true
+---
+
+
 # Rastrová grafika
 - **Téma:** Projekt – úprava obrázkov v GIMPe
 - **Ročník:** III. ročník

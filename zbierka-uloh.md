@@ -2,6 +2,7 @@
 layout: default
 title: Zbierka úloh s riešeniami
 nav_order: 2
+has_children: true
 ---
 
 # Zbierka úloh s riešeniami
@@ -75,3 +76,9 @@ nav_order: 2
     - [7.6. Základný tvar zlomku](/coding/beginner/7-chapter/6.html)
     - [7.7. Hra Poklad](/coding/beginner/7-chapter/7.html)
     - [7.8. Kalkulačka](/coding/beginner/7-chapter/8.html)
+
+- [8. Kreslenie](/coding/beginner/8-chapter/intro.html)
+    - [8.1. Nehybné obrazce](/coding/beginner/8-chapter/1.html)
+    - [8.2. Grafy](/coding/beginner/8-chapter/2.html)
+    - [8.3. Animácia](/coding/beginner/8-chapter/3.html)
+    - [8.4. Scény](/coding/beginner/8-chapter/4.html)

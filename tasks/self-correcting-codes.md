@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kontrolné kódy
+nav_exclude: true
+---
+
+
 # Kontrolné kódy
 - Ročník: I. ročník SŠ
 

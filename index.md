@@ -13,8 +13,8 @@ nav_order: 1
 
 ---
 
-### Google Drive
-- [Google Drive](https://drive.google.com/drive/folders/1Vtb_7fc81BYiRPSoRWICu4w5LvOYGaAL?usp=sharing)
+### Práca na hodine
+- [Úlohy](https://drive.google.com/drive/folders/1Vtb_7fc81BYiRPSoRWICu4w5LvOYGaAL?usp=sharing)
 
 ----
 
@@ -73,15 +73,6 @@ nav_order: 1
 - [Bezpečnosť informačných systémov](/theory/Bezpečnosť-IS.pdf)
 - [Etapy riešenia problému](/theory/Algoritmy.pdf)
 
----
-
-## Informatické súťaze
-- [KSP (Korešpondenčný seminár z programovania)](https://www.ksp.sk/ulohy/) do 30.10.2023 prebieha 1.časť 1.kolo
-- [Zenit v programovaní](https://zenit.ksp.sk/) - Školské kolo 17.10.2023 v čase od 9:00 do 13:00.
-- [SOČ (Stredoškolská odborná činnosť)](https://siov.sk/sutaze/stredoskolska-odborna-cinnost/)
-- [OI (Olympiáda v informatike)](https://oi.sk/?d=rocnik) - Kategória A (všetci) Domáce kolo prebieha do 15.11.2023
-- [Junior Internet](https://www.juniorinternet.sk/cms/)
-
 
 ---
 
@@ -91,16 +82,11 @@ nav_order: 1
 - [Zbierka úloh](/zbierka-uloh.html)
 
 
-### Kreslenie na obrazovke
-- [I. Nehybné obrazce](/coding/draw/1-chapter.html)
-- [II. Grafy](/coding/draw/2-chapter.html)
-- [III. Animácia](/coding/draw/3-chapter.html)
-- [IV. Scény](/coding/draw/4-chapter.html)
-
 ### Prehľady príkazov
 - [Python č.1](/cheetsheets/Python-príkazovník.pdf)
 - [Python č.2](/cheetsheets/Python-príkazovník-v1.pdf)
 - [Pygame](/cheetsheets/Pygame-príkazovnik.pdf)
+
 
 ### Projekty
 - [Snehuliaci útočia](/coding/projects/snowman-game.html)
@@ -119,4 +105,14 @@ nav_order: 1
 - [Zoznam programov](/tasks/edu-software.html)
 - [Korytnačka Žofka](/software/zofka.html)
 - [Frekvencie - animácia](/software/sinusoid-winding.html)
+
+
+---
+
+## Informatické súťaze
+- [KSP (Korešpondenčný seminár z programovania)](https://www.ksp.sk/ulohy/)
+- [Zenit v programovaní](https://zenit.ksp.sk/)
+- [SOČ (Stredoškolská odborná činnosť)](https://siov.sk/sutaze/stredoskolska-odborna-cinnost/)
+- [OI (Olympiáda v informatike)](https://oi.sk/?d=rocnik)
+- [Junior Internet](https://www.juniorinternet.sk/cms/)
 

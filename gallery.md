@@ -1,3 +1,9 @@
+---
+layout: default
+title: Galéria
+nav_exclude: true
+---
+
 # Galéria
 
 

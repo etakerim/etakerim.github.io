@@ -1,3 +1,10 @@
+---
+layout: default
+title: Rôzne úlohy
+nav_exclude: true
+---
+
+
 # Rôzne úlohy
 
 
