@@ -1,0 +1,314 @@
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Sinusoida okolo kruhu</title>
+    </head>
+    <body>
+        <input type="text" id="equation" size="60"
+               style="font-size: 20px; font-family: monospace;"
+               onchange="redraw()"/>
+        <button onclick="zoom('+')">+</button>
+        <button onclick="zoom('-')">-</button>
+        <br/>
+        <canvas id="wave_graph" style="margin: 20px;"></canvas>
+        <br/>
+        <canvas id="radial_graph" style="margin: 20px;"></canvas>
+        <canvas id="center_graph" style="margin: 20px"></canvas>
+        <br/>
+        <table style="border: 0px;">
+            <tr>
+                <td><b>Frekvencia sinusiody </b></td>
+                <td>
+                    <input type="number" id="fwave_slider" min="0.2" max="12"
+                    step="0.02" style="text-align: right;" onchange="redraw()"/> Hz
+                </td>
+                <td><input type="checkbox" id="are_winding_marks" checked
+                     onchange="redraw()"/><b>Značky vinutia</b></td>
+            </tr>
+            <tr>
+                <td><b>Frekvencia vinutia </b></td>
+                <td>
+                    <input type="number" id="fwinding_slider" min="0.01" max="6"
+                    step="0.01" style="text-align: right;" oninput="redraw()"/> Hz
+                </td>
+                <td>
+                    <button onclick="event_animate()">Animovať</button>
+                    <input type="number" id="animation_ms" style="text-align: right;"
+                    min="50" max="1000" step="50"/> ms
+                </td>
+            </tr>
+            <tr>
+                <td><b>Navinutých periód </b></td>
+                <td>
+                    <input type="number" id="winded_periods" min="1" max="30"
+                    step="1" style="text-align: right;" oninput="redraw()"/>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+    <script>
+
+        class Graph {
+
+            constructor(id, width, height, x_div, y_div, x_ruler, y_ruler) {
+                this.ctx = document.getElementById(id).getContext("2d");
+                this.width = width;
+                this.height = height;
+                this.x_axis = height - (height / x_div);
+                this.y_axis = width / y_div;
+                this.x_unit = (width - this.x_axis) / x_ruler;
+                this.y_unit = height / y_ruler;
+            }
+
+            refresh() {
+                this.ctx.canvas.width = this.width;
+                this.ctx.canvas.height = this.height;
+            }
+
+            vertical_axis(color) {
+                this.ctx.lineWidth = 2;
+                this.ctx.strokeStyle = color;
+
+                this.ctx.beginPath();
+                this.ctx.moveTo(this.y_axis, 0);
+                this.ctx.lineTo(this.y_axis, this.height);
+
+                this.ctx.moveTo(this.y_axis, 2);
+                this.ctx.lineTo(this.y_axis - 5, 10);
+                this.ctx.moveTo(this.y_axis, 2);
+                this.ctx.lineTo(this.y_axis + 5, 10);
+                this.ctx.stroke();
+            }
+
+            horizontal_axis(color) {
+                this.ctx.lineWidth = 2;
+                this.ctx.strokeStyle = color;
+
+                this.ctx.beginPath();
+                this.ctx.moveTo(0, this.x_axis);
+                this.ctx.lineTo(this.width, this.x_axis);
+
+                this.ctx.moveTo(this.width - 2, this.x_axis);
+                this.ctx.lineTo(this.width - 10, this.x_axis - 5);
+                this.ctx.moveTo(this.width - 2, this.x_axis);
+                this.ctx.lineTo(this.width - 10, this.x_axis + 5);
+                this.ctx.stroke();
+            }
+
+            horizontal_ticks(tickpx, halfmark) {
+                const fontsize = 15;
+                this.ctx.font = fontsize + "px Open Sans";
+
+                let i = 1;
+                for (let x = this.y_axis + this.x_unit; x < this.width; x += this.x_unit) {
+                    this.ctx.moveTo(x, this.x_axis - tickpx / 2);
+                    this.ctx.lineTo(x, this.x_axis + tickpx / 2);
+
+                    if (halfmark) {
+                        this.ctx.moveTo(x - this.x_unit / 2, this.x_axis - tickpx / 4);
+                        this.ctx.lineTo(x - this.x_unit / 2, this.x_axis + tickpx / 4);
+                    }
+
+                    this.ctx.fillText(i, x - 5, this.x_axis + fontsize * 2);
+                    i += 1;
+                }
+                this.ctx.stroke();
+            }
+
+            vertical_ticks(tickpx, halfmark) {
+                const fontsize = 15;
+                this.ctx.font = fontsize + "px Open Sans";
+
+                let top_mark = (this.x_axis % this.y_unit);
+                let i = (this.x_axis - top_mark) / this.y_unit;
+
+                for (let y = top_mark; y < this.height; y += this.y_unit) {
+                    this.ctx.moveTo(this.y_axis - tickpx / 2, y);
+                    this.ctx.lineTo(this.y_axis + tickpx / 2, y);
+
+                    if (halfmark) {
+                        this.ctx.moveTo(this.y_axis - tickpx / 4, y + this.y_unit / 2);
+                        this.ctx.lineTo(this.y_axis + tickpx / 4, y + this.y_unit / 2);
+                    }
+
+                    if (i !== 0)
+                        this.ctx.fillText(i, this.y_axis - fontsize * 2, y + fontsize * 0.4);
+                    i -= 1;
+                }
+                this.ctx.stroke();
+            }
+
+            winding_marks(color, diff) {
+                this.ctx.save();
+                this.ctx.lineWidth = 1;
+                this.ctx.setLineDash([8, 5]);
+                this.ctx.strokeStyle = color;
+
+                for (let x = this.y_axis + diff; x < this.width; x += diff) {
+                    this.ctx.moveTo(x, this.x_axis - 100);
+                    this.ctx.lineTo(x, this.x_axis + 100);
+                    this.ctx.stroke();
+                }
+                this.ctx.restore();
+            }
+        }
+
+
+        class CartesianGraph extends Graph {
+
+            constructor(id, width, height, x_div, y_div, x_ruler, y_ruler) {
+                super(id, width, height, x_div, y_div, x_ruler, y_ruler);
+            }
+
+            plot(f, dx, color) {
+                this.ctx.lineWidth = 2;
+                this.ctx.strokeStyle = color;
+                this.ctx.moveTo(this.y_axis, this.x_axis);
+
+                this.ctx.beginPath();
+                let param = 0;
+
+                for (let x = 0; x + this.y_axis < this.width; x++) {
+                    const s = f(param);
+                    param += dx;
+                    this.ctx.lineTo(x + this.y_axis, -this.y_unit * s + this.x_axis);
+                }
+                this.ctx.stroke();
+            }
+        }
+
+        class PolarGraph extends Graph {
+
+            constructor(id, width, height, x_div, y_div, x_ruler, y_ruler) {
+                super(id, width, height, x_div, y_div, x_ruler, y_ruler);
+            }
+
+            plot(f, dx, color, scaler, periods) {
+                this.ctx.moveTo(this.y_axis, this.x_axis);
+                this.ctx.lineWidth = 2;
+                this.ctx.strokeStyle = color;
+
+                this.ctx.beginPath();
+                const da = 2 * Math.PI / 360;
+                const max_angle = 2 * Math.PI * periods;
+                let sum_x = 0;
+                let sum_y = 0;
+                let cnt = 0;
+
+                for (let a = 0; a < max_angle; a += da) {
+                    const r = scaler * sinusoid(a * dx);
+                    const x =  r * Math.cos(a) + this.y_axis;
+                    const y = -r * Math.sin(a) + this.x_axis;
+                    this.ctx.lineTo(x, y);
+
+                    cnt += 1;
+                    sum_x += x;
+                    sum_y += y;
+                }
+                this.ctx.stroke();
+
+                this.ctx.beginPath();
+                this.ctx.strokeStyle = "#6a02cc";
+                this.ctx.fillStyle = "#6a02cc";
+                this.ctx.ellipse(sum_x / cnt, sum_y / cnt, 5, 5, 0, 0, 2 * Math.PI);
+                this.ctx.fill();
+
+                return -(sum_y / cnt - this.x_axis); //-(sum_x / cnt - this.y_axis);
+            }
+        }
+        let equation = document.getElementById("equation");
+        let fwave_slider = document.getElementById("fwave_slider");
+        let fwinding_slider = document.getElementById("fwinding_slider");
+        let animation_ms = document.getElementById("animation_ms");
+        let winded_periods = document.getElementById("winded_periods");
+
+        let zoom_factor = 2;
+
+        equation.value = "sin(x)";
+        fwave_slider.value = 1;
+        fwinding_slider.value = 1;
+        animation_ms.value = 50;
+        winded_periods.value = 14;
+        redraw();
+
+        function sinusoid(x) {
+            let code = document.getElementById("equation").value;
+            code = (code.replace(/sin/g, "Math.sin")
+                        .replace(/cos/g, "Math.cos")
+                        .replace(/PI/g, "Math.PI"));
+            return eval(code);
+        }
+
+        function zoom(dir) {
+            if (dir === '+' && zoom_factor > 1) {
+                zoom_factor -= 1;
+                redraw();
+            } else if (dir === '-' && zoom_factor < 8) {
+                zoom_factor += 1;
+                redraw();
+            }
+        }
+
+        function angular_velocity(f) {
+            return 2 * Math.PI * f;
+        }
+
+        var g_amplitude, timer;
+        let freq = new CartesianGraph("center_graph", 600, 400, 3, 10, 5, 4);
+
+        function event_animate() {
+            freq.refresh();
+            freq.horizontal_axis("#333");
+            freq.vertical_axis("#333");
+            freq.horizontal_ticks(10, false);
+            fwinding_slider.value = Number(fwinding_slider.min);
+            timer = window.setInterval(animate_winding, animation_ms.value);
+        }
+
+        function animate_winding() {
+            const f = Number(fwinding_slider.value);
+
+            if (f < Number(fwinding_slider.max)) {
+                redraw();
+                freq.ctx.beginPath();
+                freq.ctx.strokeStyle = "#6a02cc";
+                freq.ctx.lineWidth = 2;
+
+                freq.ctx.moveTo(freq.y_axis + f * freq.x_unit, freq.x_axis);
+                freq.ctx.lineTo(freq.y_axis + f * freq.x_unit, freq.x_axis - (6 * g_amplitude));
+                freq.ctx.stroke();
+                fwinding_slider.value = String(Math.floor((f + 0.04) * 100) / 100);
+            } else {
+                window.clearInterval(timer);
+            }
+        }
+
+        function redraw() {
+            let wave = new CartesianGraph("wave_graph", 1000, 400, 2, 10,
+                                          zoom_factor * 2,  zoom_factor + 3);
+
+            wave.refresh();
+            wave.horizontal_axis("#333");
+            wave.vertical_axis("#333");
+            wave.horizontal_ticks(10, true);
+            wave.vertical_ticks(10, true);
+
+            if (document.getElementById('are_winding_marks').checked === true) {
+                wave.winding_marks("#333", wave.x_unit / fwinding_slider.value);
+            }
+
+            let coil = new PolarGraph("radial_graph", 400, 400, 2, 2, 1, 1);
+            coil.refresh();
+            coil.horizontal_axis("#333");
+            coil.vertical_axis("#333");
+
+            const v_angular = angular_velocity(fwave_slider.value);
+            const v_winding = angular_velocity(fwinding_slider.value);
+
+            wave.plot(sinusoid, v_angular / wave.x_unit, "#e20000", 50);
+            g_amplitude = coil.plot(sinusoid, v_angular / v_winding, "#2dcc22",
+                                    (1 / zoom_factor) * 180, winded_periods.value);
+        }
+    </script>
+</html>
