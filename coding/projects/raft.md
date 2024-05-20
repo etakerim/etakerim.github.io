@@ -10,7 +10,6 @@ nav_exclude: true
 - Programovací jazyk Python a Tkinter
 - Projekt z programovania pre 1.ročník SŠ
 
-
 ## Príbeh
 
 > Lodivod sa chcel dostať do lepšieho prúdu, aby sa vyhol zradným brehom a zamieril k pravému brehu, ku ktorému sa dosiaľ nepriblížil. Manéver sa nezaobišiel bez ťažkostí, no lodivod ich šťastne zdolal ... Dva dni plávala plť podľa toho, ako to umožňoval prúd, raz pri pravom, raz pri ľavom brehu, ale po celý čas neutrpela ani najmenší podozrivý náraz.
