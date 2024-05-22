@@ -25,7 +25,7 @@ Pltník Augustín si ťa vzal za učňa a učí ťa tajomným dunajským zákoni
 
 1. Na paper naskicuj a naprogramuj kreslenie predmetov v hre. Každý predmet kresli na obrazovku v samostatnom podprograme:
     - plť
-    - drevená kláda
+    - drevená klada (drevo)
     - rybička
 2. Nakresli scénu, kde sa bude hra odohrávať. Dva trávnaté brehy oddelené riekou.
 3. Vytvor animáciu na pohyb plťky z jedného brehu na druhý
@@ -45,4 +45,4 @@ Pltník Augustín si ťa vzal za učňa a učí ťa tajomným dunajským zákoni
 
 
 ## Inšpirácia
-Hra "Pltníci na Dunaji" je voľne inšpirovaná legendárnou arkádovou hrou [Frogger](https://en.wikipedia.org/wiki/Frogger):
+Hra "Pltníci na Dunaji" je voľne inšpirovaná legendárnou arkádovou hrou [Frogger](https://en.wikipedia.org/wiki/Frogger)
