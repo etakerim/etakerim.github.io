@@ -13,7 +13,8 @@ nav_exclude: true
 ## Úlohy
 V blízkom parku rozkvitol utešený záhon sedmokrások. Láka ťa vziať si jednu z nich a pri trhaní lupienkov si položiť odvekú otázku: "Ľúbi ma, neľúbi ma...?" Toľká škoda by bola znivočiť takú pastvu pre oči len z rozmaru. Preto napíšeš program, ktorý sedmokráskam ubližovať nebude a prinesie ti kvetinový záhon domov.
 
-1. Program nakreslí na obrazovku sedmokrásku z geometrických útvarov. Bude sa podobať obrázku. Sedmokráska sa skladá zo stonky (obdĺžnik), listu (elipsa), a kvetu (kruh) s okvetnými lístkami (4 kruhy). ![Sedmokráska](/assets/sedmokraska.png)
+1. Program nakreslí na obrazovku sedmokrásku z geometrických útvarov. Bude sa podobať obrázku. Sedmokráska sa skladá zo stonky (obdĺžnik), listu (elipsa), a kvetu (kruh) s okvetnými lístkami (4 kruhy).
+![Sedmokráska](/assets/sedmokraska.png)
 2. Prepíš úlohu č.1, tak, aby sme sedmokrásku mohli nakresliť na ľubovoľných súradniciach x, y na obrazovke. Príkazy doplň do vlastného podprogramu s predpisom (namiesto troch bodiek):
 ```python
 def sedmokraska(x, y):

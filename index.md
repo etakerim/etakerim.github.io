@@ -26,7 +26,7 @@ nav_order: 1
 ## Učivo
 
 1. [Učebnice](/menu/textbooks.html)
-2. [Zbierka úloh z programovania][/zbierka-uloh.html]
+2. [Zbierka úloh z programovania](/zbierka-uloh.html)
 3. [Cvičenia](/menu/exercises.html)
 4. [Prezentácie](/menu/slides.html)
 5. [Pre maturantov](/menu/matura.html)
